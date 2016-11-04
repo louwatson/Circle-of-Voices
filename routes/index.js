@@ -19,7 +19,7 @@ router.get("/the-communities", function(req, res) {
   res.render("the-communities");
 });
 router.get("/the-communities/odanak", function(req, res) {
-  res.render("communities/odanak");
+  res.render("the-communities/Odanak");
 });
 router.get("/the-communities/Manawan", function(req, res) {
   res.render("the-communities/Manawan");
