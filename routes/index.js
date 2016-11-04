@@ -18,4 +18,14 @@ router.get("/the-women", function(req, res) {
 router.get("/the-communities", function(req, res) {
   res.render("the-communities");
 });
+router.get("/the-communities/odanak", function(req, res) {
+  res.render("communities/odanak");
+});
+router.get("/the-communities/Manawan", function(req, res) {
+  res.render("the-communities/Manawan");
+
+});
+router.get("/the-communities/Cacouna", function(req, res) {
+  res.render("the-communities/Cacouna");
+});
 module.exports = router;
