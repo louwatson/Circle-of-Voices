@@ -1,0 +1,28 @@
+/* the 'class' container in html specifies the element in css*/
+h1.title {
+color: #66BF29;
+font-weight: bold;
+text-align: center;
+}
+
+h2 {
+color: #66BF29;
+font-family: Nunito, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+
+.community-categories h3 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: DarkRed;
+  text-align: center;
+}
