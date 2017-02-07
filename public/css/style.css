@@ -1,8 +1,57 @@
 /* the 'class' container in html specifies the element in css*/
-h1.title {
-color: #66BF29;
+.title {
+text-align: center;
+color: red;
+}
+
+.container {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.MK {
+  background-color: white;
+    }
+
+.frame {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.frame img {
+  border: 2px;
+  border-style:solid;
+  border-color:black;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: inline-block;
+
+}
+.frame2 img {
+  height: 300px;
+  width: auto;
+}
+.frame img:hover {
+background-color: white;
+}
+
+.col-xs-4 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.col-xs-6 {
+  padding: 5px;
+  margin: 0px;
+}
+
+h1 {
+color: #CF080F;
 font-weight: bold;
 text-align: center;
+font-family: 'Sahitya', serif;
 }
 
 h2 {
@@ -23,6 +72,8 @@ h3 {
 }
 
 p {
-  color: DarkRed;
-  text-align: center;
+  color: black;
+  text-align:inherit;
+  padding: 5px;
+  font-family: 'Nunito', sans-serif;
 }
