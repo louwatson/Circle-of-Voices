@@ -11,7 +11,75 @@ router.get("/", function(req, res) {
 router.get("/1", function(req, res) {
   res.render("index1");
 });
+/* ART */
+router.get("/art/sounds", function (req, res) {
+res.render ("art/sounds");
+});
+router.get("/art/circle", function (req, res) {
+res.render ("art/circle");
+});
+router.get("/art/trad", function (req, res) {
+res.render ("art/trad");
+});
+router.get("/art/workshop", function (req, res) {
+res.render ("art/workshop");
+});
+router.get("/art/interview", function (req, res) {
+res.render ("art/interview");
+});
+router.get("/art/photo", function (req, res) {
+res.render ("art/photo");
+});
 
+/* LANGUAGE */
+router.get("/language/sounds", function (req, res) {
+res.render ("language/sounds");
+});
+router.get("/language/circle", function (req, res) {
+res.render ("language/circle");
+});
+router.get("/language/interview", function (req, res) {
+res.render ("language/interview");
+});
+router.get("/language/trad", function (req, res) {
+res.render ("language/trad");
+});
+router.get("/language/photo", function (req, res) {
+res.render ("language/photo");
+});
+/* LAND */
+router.get("/land/sounds", function (req, res) {
+res.render ("land/sounds");
+});
+router.get("/land/circle", function (req, res) {
+res.render ("land/circle");
+});
+router.get("/land/trad", function (req, res) {
+res.render ("land/trad");
+});
+router.get("/land/interview", function (req, res) {
+res.render ("land/interview");
+});
+router.get("/land/photo", function (req, res) {
+res.render ("land/photo");
+});
+/* SPIRIT */
+router.get("/spirit/sounds", function (req, res) {
+res.render ("spirit/sounds");
+});
+router.get("/spirit/circle", function (req, res) {
+res.render ("spirit/circle");
+});
+router.get("/spirit/trad", function (req, res) {
+res.render ("spirit/trad");
+});
+router.get("/spirit/interview", function (req, res) {
+res.render ("spirit/interview");
+});
+router.get("/spirit/photo", function (req, res) {
+res.render ("spirit/photo");
+});
+/*THE WOMEN*/
 router.get("/the-women", function(req, res) {
   res.render("the-women/the-women");
 });
@@ -32,7 +100,7 @@ router.get("/the-women/Lisa-Aubin-Berube", function(req, res) {
 });
 router.get("/the-women/Ivanie-Aubin-Malo", function(req, res) {
   res.render("the-women/Ivanie-Aubin-Malo");
-});
+  });
 router.get("/the-communities", function(req, res) {
   res.render("the-communities/the-communities");
 });
@@ -45,14 +113,15 @@ router.get("/the-communities/Manawan", function(req, res) {
 
 });
 router.get("/the-communities/Cacouna", function(req, res) {
-  res.render("the-communities/Cacouna");
-});
+  res.render("the-communities/Cacouna");});
 
-router.get("/Odanak/Kiuna", function(req, res) {
-  res.render("Odanak/Kiuna");
+router.get("/the-communities/Kiuna", function(req, res) {
+  res.render("the-communities/Kiuna");
+  });
+  router.get("/about", function(req, res) {
+    res.render("about/about");
   });
     router.get("/the-research", function(req, res) {
     res.render("the-research/the-research");
-
 });
 module.exports = router;
