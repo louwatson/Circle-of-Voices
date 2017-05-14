@@ -15,7 +15,9 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: white;
-  padding:
+  }
+  .container-navbar {
+    background-color: transparent
   }
 
 .navbar-header {
@@ -29,12 +31,20 @@ body {
   margin-bottom: 10px;
   background-color: black;
   border-radius: 115px;
+  border: 0px;
 }
-.navbar-default .navbar-nav li a {
+.navbar-nav li {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.navbar-nav li a{
   color: white;
+  padding: 30px;
+  display: inline;
 }
-
-.navbar-default .navbar-nav:hover li a {
+.navbar-default .navbar-nav li:hover a {
   color: #FF21DC;
 }
 
@@ -106,6 +116,10 @@ h2 {
 color: black;
 font-family: Nunito, sans-serif;
 text-align: center;
+}
+
+ol {
+list-style-position: inside;
 }
 
 h3 {
@@ -192,7 +206,7 @@ img {
   padding: 15px;
 }
 .vertical img {
-   
+  vertical-align:
 }
 .gallery img {
   width: 100%;

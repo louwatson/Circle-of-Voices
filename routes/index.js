@@ -4,14 +4,14 @@ var router = express.Router({
 });
 
 /* GET home page. */
-router.get("/", function(req, res) {
-  res.render("index");
+router.get("/home", function(req, res) {
+  res.render("home");
 });
 
-router.get("/1", function(req, res) {
-  res.render("index1");
-});
 /* ART */
+router.get("/art", function (req, res) {
+res.render ("art/art");
+});
 router.get("/art/sounds", function (req, res) {
 res.render ("art/sounds");
 });
@@ -32,6 +32,9 @@ res.render ("art/photo");
 });
 
 /* LANGUAGE */
+router.get("/language", function (req, res) {
+res.render ("language/language");
+});
 router.get("/language/sounds", function (req, res) {
 res.render ("language/sounds");
 });
@@ -48,6 +51,9 @@ router.get("/language/photo", function (req, res) {
 res.render ("language/photo");
 });
 /* LAND */
+router.get("/land", function (req, res) {
+res.render ("land/land");
+});
 router.get("/land/sounds", function (req, res) {
 res.render ("land/sounds");
 });
@@ -64,6 +70,9 @@ router.get("/land/photo", function (req, res) {
 res.render ("land/photo");
 });
 /* SPIRIT */
+router.get("/spirit", function (req, res) {
+res.render ("spirit/spirit");
+});
 router.get("/spirit/sounds", function (req, res) {
 res.render ("spirit/sounds");
 });
