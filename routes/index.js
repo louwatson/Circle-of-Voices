@@ -12,6 +12,9 @@ router.get("/home", function(req, res) {
 router.get("/art", function (req, res) {
 res.render ("art/art");
 });
+router.get("/art/art", function (req, res) {
+res.render ("art/art");
+});
 router.get("/art/sounds", function (req, res) {
 res.render ("art/sounds");
 });
@@ -35,6 +38,9 @@ res.render ("art/photo");
 router.get("/language", function (req, res) {
 res.render ("language/language");
 });
+router.get("/language/language", function (req, res) {
+res.render ("language/language");
+});
 router.get("/language/sounds", function (req, res) {
 res.render ("language/sounds");
 });
@@ -54,6 +60,9 @@ res.render ("language/photo");
 router.get("/land", function (req, res) {
 res.render ("land/land");
 });
+router.get("/land/land", function (req, res) {
+res.render ("land/land");
+});
 router.get("/land/sounds", function (req, res) {
 res.render ("land/sounds");
 });
@@ -71,6 +80,9 @@ res.render ("land/photo");
 });
 /* SPIRIT */
 router.get("/spirit", function (req, res) {
+res.render ("spirit/spirit");
+});
+router.get("/spirit/spirit", function (req, res) {
 res.render ("spirit/spirit");
 });
 router.get("/spirit/sounds", function (req, res) {
@@ -129,6 +141,9 @@ router.get("/the-communities/Kiuna", function(req, res) {
   });
   router.get("/about", function(req, res) {
     res.render("about/about");
+  });
+  router.get("/who", function (req, res) {
+  res.render ("who/who");
   });
     router.get("/the-research", function(req, res) {
     res.render("the-research/the-research");
