@@ -1,0 +1,19 @@
+#CoV .active-segment {
+    cursor: pointer;
+}
+
+#CoV .active-segment.land:hover .segment-bg {
+    fill: darkgray;
+}
+
+#CoV .active-segment.language:hover .segment-bg {
+    fill: darkkhaki;
+}
+
+#CoV .active-segment.art:hover .segment-bg {
+    fill: darkred;
+}
+
+#CoV .active-segment.spirit:hover .segment-bg {
+    fill: lightgray;
+}
