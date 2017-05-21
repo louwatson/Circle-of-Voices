@@ -97,6 +97,11 @@ font-size: 30px;
   padding: 0px;
   margin: 0px;
 }
+.miniwheel {
+  position: fixed;
+  top:122;
+  left: 70;
+}
 /* combinaison couleurs:
 serif pour <p>
 sans serif pour les titres
@@ -116,10 +121,6 @@ h2 {
 color: black;
 font-family: Nunito, sans-serif;
 text-align: center;
-}
-
-ol {
-list-style-position: inside;
 }
 
 h3 {
@@ -147,6 +148,11 @@ h5 {
   font-size: 20px;
   font-weight: 200;
 }
+.community-categories h3 {
+  color: black;
+  text-align: center;
+}
+
 p {
   color: black;
   text-align: left;
@@ -164,10 +170,14 @@ em {
   font-size: 15px;
     }
 
-ul {
+ul{
   margin: 0px;
+  list-style-position: inside;
+  text-align: left;
+      }
+li.horizontal {
+display: inline;
   }
-
 .lisa {
 color: black;
 text-align: center;
@@ -179,16 +189,10 @@ p.bloc {
   border-color:black;
   border-radius: 8px;
   padding: 10px;
-
 }
 
 .color-blue {
 color: #6615C1;
-}
-
-.community-categories h3 {
-  color: black;
-  text-align: center;
 }
 
 .caption p {
@@ -205,9 +209,7 @@ img {
   display: center;
   padding: 15px;
 }
-.vertical img {
-  vertical-align:
-}
+
 .gallery img {
   width: 100%;
   height: 100%;
