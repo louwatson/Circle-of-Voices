@@ -12,12 +12,16 @@ body {
 }
 .container {
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 40px;
   background-color: white;
+  width: auto;
+  margin-left: 250px;
+  margin-right: 250px;
   }
   .container-navbar {
-    background-color: transparent
+    background-color: transparent;
+    padding-bottom: 20px;
+    padding-top: 20px
   }
 
 .navbar-header {
@@ -84,6 +88,9 @@ font-size: 30px;
   padding: 0px;
   display: inline-block;
 }
+.row {
+  padding-bottom: 40px;
+}
 .col-xs-3 {
   padding: 0px;
   margin: 0px;
@@ -97,6 +104,14 @@ font-size: 30px;
   padding: 0px;
   margin: 0px;
 }
+.col-xs-8 {
+  padding: 0px;
+  margin: 0px;
+}
+.col-xs-12 {
+  padding: 0px;
+  margin: 0px;
+}
 .miniwheel {
   position: fixed;
   top:122;
@@ -106,30 +121,36 @@ font-size: 30px;
 serif pour <p>
 sans serif pour les titres
 ou tout sans serif
-
-entre 8 à 12 mots par ligne*/
+entre 8 à 12 mots par ligne
+h4 et h5 à retravailler
++ fonts*/
 
 h1 {
 color: #B251A3;
 text-align: center;
 font-family: 'Sahitya', sans-serif;
-font-size: 40px;
-margin: 20px;
+font-size: 50px;
+margin:0;
+padding-top: 40px;
+padding-bottom: 5px;
 }
 
 h2 {
-color: black;
-font-family: Nunito, sans-serif;
+color: #B251A3;
+font-family: 'Sahitya', sans-serif;
 text-align: center;
+font-size: 30px;
+margin:0;
+padding-top: 5px;
 }
 
 h3 {
   text-align: center;
-  color: #B251A3;
-  font-family: 'Nunito', sans-serif;
-  padding: 10px;
+  color: black;
+  font-family: 'Sahitya', sans-serif;
+  padding: 10px 40px 10px 40px;
   margin: 0px;
-  font-size: 30px;
+  font-size: 29px;
   font-style: normal;
 }
 
@@ -156,9 +177,17 @@ h5 {
 p {
   color: black;
   text-align: left;
+  padding: 40px;
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 17px;
+}
+p.quote {
+  color: black;
+  text-align: left;
   padding: 10px;
   margin: 20px;
-  font-family: 'Oxygen', serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 15px;
 }
 
@@ -191,24 +220,48 @@ p.bloc {
   border-radius: 8px;
   padding: 10px;
 }
-
+p.caption {
+  padding: 40px 0px 0px 40px;
+}
+.emphasis {
+  color: #B251A3;
+}
 .color-blue {
 color: #6615C1;
 }
 
-.caption p {
-  text-align: left;
-  font-style: oblique;
-  margin: 5px;
+/* CSS animations*/
+
+.bubbles {
+  display:inline-block;
+
 }
+.bubbles img {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-property: transform;
+  margin: 5px;
+  padding: 5px;
+
+}
+.bubbles img:hover {
+  transform: scale(1.1,1.1);
+}
+/* h3.experiment {
+visibility: visible;
+animation-name: fadeInUp;
+animation-duration: 1s;
+-webkit-transform: translate3d(0,100%,0);
+transform: translate3d(0,100%,0)
+}*/
 
 a {
   color:black;
   font-style: underline;
 }
 img {
-  display: center;
-  padding: 15px;
+  padding: 15px 20px 15x 20px;
+  margin/ 0PX 20PX 0px 20x;
 }
 
 .gallery img {
@@ -222,7 +275,7 @@ img {
 }
 iframe {
   width: 100%;
-padding: 5px;
+padding: 20px 10px 10px 40px;
 }
 .interview iframe {
   padding: 25px;
