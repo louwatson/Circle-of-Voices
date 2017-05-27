@@ -17,3 +17,7 @@
 #CoV .active-segment.spirit:hover .segment-bg {
     fill: lightgray;
 }
+
+#CoV a:visited .active-segment .segment-bg {
+    fill: black;
+}
