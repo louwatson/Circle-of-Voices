@@ -214,10 +214,10 @@
            id="path4684" />
       </g>
     </g>
-    <a
-       transform="translate(-1180,-14.286)"
+    <a transform="translate(-1180,-14.286)"
        xlink:href="/art/art"
-       id="a256">
+       id="a256"
+       data-toggle="tooltip" data-placement="top" title="Overview">
       <g
          class="active-segment art"
          id="art-main">
@@ -249,11 +249,8 @@
              id="tspan4734">ART</tspan></text>
       </g>
     </a>
-    <a
-       xlink:href="/art/circle"
-       id="a3851">
-      <g
-         transform="translate(-1180,-14.286)"
+    <a xlink:href="/art/circle" id="a3851" data-toggle="tooltip" data-placement="left" title="Sharing circle">
+      <g transform="translate(-1180,-14.286)"
          class="active-segment art"
          id="art-circle">
         <path
@@ -324,7 +321,8 @@
     <a
        transform="translate(-1180,-14.286)"
        xlink:href="/art/photo"
-       id="a3932">
+       id="a3932"
+       data-toggle="tooltip" data-placement="left" title="Participatory photography">
       <g
          style="fill-rule:evenodd"
          class="active-segment art"
@@ -344,7 +342,8 @@
     </a>
     <a
        xlink:href="/art/interview"
-       id="a3868">
+       id="a3868"
+       data-toggle="tooltip" data-placement="left" title="Interview with a knowledge holder: Guy Sioui Durand">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment art"
@@ -380,7 +379,8 @@
     </a>
     <a
        xlink:href="/art/dance"
-       id="a3842">
+       id="a3842"
+       data-toggle="tooltip" data-placement="bottom" title="Traditional dance workshops: fancy shawl">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment art"
@@ -420,7 +420,8 @@
     </a>
     <a
        xlink:href="/art/trad"
-       id="a3835">
+       id="a3835"
+       data-toggle="tooltip" data-placement="bottom" title="Filming a traditional practice: basket weaving">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment art"
@@ -455,7 +456,8 @@
     </a>
     <a
        id="a4158"
-       xlink:href="/language/language">
+       xlink:href="/language/language"
+       data-toggle="tooltip" data-placement="bottom" title="Overview">
       <g
          id="language-main"
          class="active-segment language"
@@ -490,7 +492,8 @@
     </a>
     <a
        xlink:href="/language/trad"
-       id="a3796">
+       id="a3796"
+       data-toggle="tooltip" data-placement="bottom" title="Filming a traditional practice: storytelling">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment language"
@@ -525,7 +528,8 @@
     </a>
     <a
        xlink:href="/language/interview"
-       id="a3784">
+       id="a3784"
+       data-toggle="tooltip" data-placement="bottom" title="Interview with a knowledge holder: Monique Nolett Ilet">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment language"
@@ -561,7 +565,8 @@
     </a>
     <a
        xlink:href="/language/circle"
-       id="a3803">
+       id="a3803"
+       data-toggle="tooltip" data-placement="right" title="Sharing circle">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment language"
@@ -632,7 +637,8 @@
     </a>
     <a
        xlink:href="/language/photo"
-       id="a3820">
+       id="a3820"
+       data-toggle="tooltip" data-placement="right" title="Participatory photography">
       <g
          style="fill-rule:evenodd"
          transform="translate(-1180,-14.286)"
@@ -657,7 +663,8 @@
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment language"
-         id="language-sounds">
+         id="language-sounds"
+         data-toggle="tooltip" data-placement="right" title="Sound recordings">
         <path
            style="fill:#ffdf00;fill-rule:evenodd"
            inkscape:connector-curvature="0"
@@ -697,7 +704,8 @@
     </a>
     <a
        id="a4164"
-       xlink:href="/land/land">
+       xlink:href="/land/land"
+       data-toggle="tooltip" data-placement="top" title="Overview">
       <g
          id="land-main"
          class="active-segment land "
@@ -731,7 +739,8 @@
     </a>
     <a
        xlink:href="/land/circle"
-       id="a3892">
+       id="a3892"
+       data-toggle="tooltip" data-placement="right" title="Sharing circle">
       <g
          class="active-segment land "
          transform="translate(-1180,-15.536)"
@@ -802,7 +811,8 @@
     </a>
     <a
        xlink:href="/land/trad"
-       id="a3885">
+       id="a3885"
+       data-toggle="tooltip" data-placement="right" title="Filming a traditional practice: ash pounding">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment land "
@@ -837,7 +847,8 @@
     </a>
     <a
        xlink:href="/land/interview"
-       id="a3924">
+       id="a3924"
+       data-toggle="tooltip" data-placement="right" title="Interview with a knowledge holder: Luc Gauthier Nolett">
       <g
          class="active-segment land "
          transform="translate(-1181.1,-14.993)"
@@ -873,7 +884,8 @@
     </a>
     <a
        xlink:href="/land/photo"
-       id="a3909">
+       id="a3909"
+       data-toggle="tooltip" data-placement="top" title="Participatory photography">
       <g
          style="fill-rule:evenodd"
          transform="translate(-1180,-14.286)"
@@ -894,7 +906,8 @@
     </a>
     <a
        xlink:href="/land/sounds"
-       id="a3914">
+       id="a3914"
+       data-toggle="tooltip" data-placement="top" title="Sound recordings">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment land "
@@ -938,7 +951,8 @@
     </a>
     <a
        id="a4170"
-       xlink:href="/spirit/spirit">
+       xlink:href="/spirit/spirit"
+       data-toggle="tooltip" data-placement="top" title="Overview">
       <g
          id="spirit-main"
          class="active-segment spirit"
@@ -982,7 +996,8 @@
     </a>
     <a
        xlink:href="/spirit/trad"
-       id="a3976">
+       id="a3976"
+       data-toggle="tooltip" data-placement="top" title="Filming a traditional practice: celebration">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment spirit"
@@ -1017,7 +1032,8 @@
     </a>
     <a
        xlink:href="/spirit/circle"
-       id="a3952">
+       id="a3952"
+       data-toggle="tooltip" data-placement="top" title="Sharing circle">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment spirit"
@@ -1088,7 +1104,8 @@
     </a>
     <a
        xlink:href="/spirit/sounds"
-       id="a3942">
+       id="a3942"
+       data-toggle="tooltip" data-placement="left" title="Sound recordings">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment spirit"
@@ -1132,7 +1149,8 @@
     </a>
     <a
        xlink:href="/spirit/interview"
-       id="a3933">
+       id="a3933"
+       data-toggle="tooltip" data-placement="left" title="Interview with Michel Durand Nolett">
       <g
          class="active-segment spirit"
          transform="translate(-1180,-15.346)"
@@ -1168,7 +1186,8 @@
     </a>
     <a
        xlink:href="/spirit/photo"
-       id="a3877">
+       id="a3877"
+       data-toggle="tooltip" data-placement="left" title="Participatory photography">
       <g
          style="fill-rule:evenodd"
          transform="translate(-1180,-14.286)"
