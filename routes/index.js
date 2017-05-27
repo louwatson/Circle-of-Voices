@@ -4,14 +4,11 @@ var router = express.Router({
 });
 
 /* GET home page. */
-router.get("/en/home", function(req, res) {
-  res.render("home-en");
-});
-router.get("/fr/home", function(req, res) {
-  res.render("home-fr");
+router.get("/home", function(req, res) {
+  res.render("home");
 });
 
-/* ART ENGLISH*/
+/* ART */
 router.get("/art", function (req, res) {
 res.render ("art/art");
 });
@@ -33,35 +30,10 @@ res.render ("art/workshop");
 router.get("/art/interview", function (req, res) {
 res.render ("art/interview");
 });
-router.get("/en/art/photo", function (req, res) {
-res.render ("art/photo-en");
+router.get("/art/photo", function (req, res) {
+res.render ("art/photo");
 });
 
-/* ART FRENCH*/
-router.get("/fr/art", function (req, res) {
-res.render ("art/art-fr");
-});
-router.get("/art/art", function (req, res) {
-res.render ("art/art");
-});
-router.get("/art/sounds", function (req, res) {
-res.render ("art/sounds");
-});
-router.get("/art/circle", function (req, res) {
-res.render ("art/circle");
-});
-router.get("/art/trad", function (req, res) {
-res.render ("art/trad");
-});
-router.get("/art/workshop", function (req, res) {
-res.render ("art/workshop");
-});
-router.get("/art/interview", function (req, res) {
-res.render ("art/interview");
-});
-router.get("/fr/art/photo", function (req, res) {
-res.render ("art/photo-fr");
-});
 /* LANGUAGE */
 router.get("/language", function (req, res) {
 res.render ("language/language");
@@ -150,8 +122,8 @@ router.get("/the-women/Lisa-Aubin-Berube", function(req, res) {
 router.get("/the-women/Ivanie-Aubin-Malo", function(req, res) {
   res.render("the-women/Ivanie-Aubin-Malo");
   });
-router.get("/en/the-communities", function(req, res) {
-  res.render("the-communities/the-communities-en");
+router.get("/the-communities", function(req, res) {
+  res.render("the-communities/the-communities");
 });
 
 router.get("/the-communities/odanak", function(req, res) {
@@ -167,24 +139,6 @@ router.get("/the-communities/Cacouna", function(req, res) {
 router.get("/the-communities/Kiuna", function(req, res) {
   res.render("the-communities/Kiuna");
   });
-  /*FRENCH*/
-  router.get("/fr/the-communities", function(req, res) {
-    res.render("the-communities/the-communities-fr");
-  });
-  router.get("/the-communities/odanak", function(req, res) {
-    res.render("the-communities/Odanak");
-  });
-  router.get("/the-communities/Manawan", function(req, res) {
-    res.render("the-communities/Manawan");
-
-  });
-  router.get("/the-communities/Cacouna", function(req, res) {
-    res.render("the-communities/Cacouna");});
-
-  router.get("/the-communities/Kiuna", function(req, res) {
-    res.render("the-communities/Kiuna");
-    });
-
   router.get("/about", function(req, res) {
     res.render("about/about");
   });
