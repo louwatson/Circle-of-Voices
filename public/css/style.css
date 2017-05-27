@@ -112,10 +112,9 @@ font-size: 30px;
   padding: 0px;
   margin: 0px;
 }
-.miniwheel {
-  position: fixed;
-  top:122;
-  left: 70;
+
+.miniwheel.affix {
+  width: 400px;
 }
 
 /* combinaison couleurs:
