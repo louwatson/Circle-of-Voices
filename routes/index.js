@@ -128,9 +128,9 @@ res.render ("spirit/interview");
 router.get("/spirit/photo", function (req, res) {
 res.render ("spirit/photo");
 });
-/*THE WOMEN*/
-router.get("/the-women", function(req, res) {
-  res.render("the-women/the-women");
+/*THE WOMEN ENGLISH*/
+router.get("/en/the-women", function(req, res) {
+  res.render("the-women/the-women-en");
 });
 router.get("/the-women/Marie-Christine-Petiquay", function(req, res) {
   res.render("the-women/Marie-Christine-Petiquay");
@@ -150,6 +150,30 @@ router.get("/the-women/Lisa-Aubin-Berube", function(req, res) {
 router.get("/the-women/Ivanie-Aubin-Malo", function(req, res) {
   res.render("the-women/Ivanie-Aubin-Malo");
   });
+
+  /*THE WOMEN FRENCH*/
+  router.get("/fr/the-women", function(req, res) {
+    res.render("the-women/the-women-fr");
+  });
+  router.get("/the-women/Marie-Christine-Petiquay", function(req, res) {
+    res.render("the-women/Marie-Christine-Petiquay");
+  });
+  router.get("/the-women/Raphaelle-Obomsawin", function(req, res) {
+    res.render("the-women/Raphaelle-Obomsawin");
+  });
+  router.get("/the-women/Catherine-Boivin", function(req, res) {
+    res.render("the-women/Catherine-Boivin");
+  });
+  router.get("/the-women/Jessica-Ann-Watso", function(req, res) {
+    res.render("the-women/Jessica-Ann-Watso");
+  });
+  router.get("/the-women/Lisa-Aubin-Berube", function(req, res) {
+    res.render("the-women/Lisa-Aubin-Berube");
+  });
+  router.get("/the-women/Ivanie-Aubin-Malo", function(req, res) {
+    res.render("the-women/Ivanie-Aubin-Malo");
+    });
+    /*ENGLISH*/
 router.get("/en/the-communities", function(req, res) {
   res.render("the-communities/the-communities-en");
 });
