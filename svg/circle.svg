@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="CoV"
-   height="223.20956mm"
-   width="223.20956mm"
+   height="100%"
+   width="100%"
    version="1.1"
    viewBox="0 0 790.90003 790.90003"
    sodipodi:docname="circle.svg"
@@ -34,13 +34,14 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.7198092"
-     inkscape:cx="399.52733"
-     inkscape:cy="375.40478"
+     inkscape:zoom="0.95776958"
+     inkscape:cx="335.20809"
+     inkscape:cy="663.79641"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer0" />
+     inkscape:current-layer="layer0"
+     units="px" />
   <defs
      id="defs4">
     <clipPath
@@ -223,14 +224,14 @@
         <image
            sodipodi:absref="D:\Projects\louwatson\Circle-of-Voices\svg\circle/art.jpg"
            xlink:href="circle/art.jpg"
-           id="image4808"
-           clip-path="url(#clipPath4750)"
-           transform="translate(-1353.4,-266.68)"
-           height="320.79999"
-           width="320.79999"
-           y="788.08002"
+           preserveAspectRatio="none"
            x="1387"
-           preserveAspectRatio="none" />
+           y="788.08002"
+           width="320.79999"
+           height="320.79999"
+           transform="translate(-1353.4,-266.68)"
+           clip-path="url(#clipPath4750)"
+           id="image4808" />
         <text
            x="213.83582"
            y="593.43597"
@@ -462,14 +463,14 @@
         <image
            sodipodi:absref="D:\Projects\louwatson\Circle-of-Voices\svg\circle/language.jpg"
            xlink:href="circle/language.jpg"
-           preserveAspectRatio="none"
-           x="-612.65997"
-           y="-25.524"
-           width="338"
-           height="338"
-           transform="translate(971.06,547.38)"
+           id="image4830"
            clip-path="url(#clipPath4738)"
-           id="image4830" />
+           transform="translate(971.06,547.38)"
+           height="338"
+           width="338"
+           y="-25.524"
+           x="-612.65997"
+           preserveAspectRatio="none" />
         <text
            id="text4744"
            style="font-weight:bold;line-height:0%;font-family:Tinos;letter-spacing:0px;word-spacing:0px;fill:#ffffff"
@@ -704,14 +705,14 @@
         <image
            sodipodi:absref="D:\Projects\louwatson\Circle-of-Voices\svg\circle/land.jpg"
            xlink:href="circle/land.jpg"
-           preserveAspectRatio="none"
-           x="1422"
-           y="-191.33"
-           width="328"
-           height="328"
-           transform="translate(-1062.7,381.29)"
+           id="image4819"
            clip-path="url(#clipPath4722)"
-           id="image4819" />
+           transform="translate(-1062.7,381.29)"
+           height="328"
+           width="328"
+           y="-191.33"
+           x="1422"
+           preserveAspectRatio="none" />
         <text
            id="text4740"
            style="font-weight:bold;line-height:0%;font-family:Tinos;letter-spacing:0px;word-spacing:0px;fill:#ffffff"
@@ -953,15 +954,15 @@
           <image
              sodipodi:absref="D:\Projects\louwatson\Circle-of-Voices\svg\circle/spirit.jpg"
              xlink:href="circle/spirit.jpg"
-             style="stroke:#000000"
-             preserveAspectRatio="none"
-             x="-1498"
-             y="16"
-             width="248"
-             height="440.89001"
-             transform="rotate(-90,360.355,-676.745)"
+             id="image4841"
              clip-path="url(#clipPath4884)"
-             id="image4841" />
+             transform="rotate(-90,360.355,-676.745)"
+             height="440.89001"
+             width="248"
+             y="16"
+             x="-1498"
+             preserveAspectRatio="none"
+             style="stroke:#000000" />
         </g>
         <text
            id="text4893"
