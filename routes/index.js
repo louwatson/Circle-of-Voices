@@ -24,8 +24,8 @@ res.render ("art/circle");
 router.get("/art/trad", function (req, res) {
 res.render ("art/trad");
 });
-router.get("/art/workshop", function (req, res) {
-res.render ("art/workshop");
+router.get("/art/dance", function (req, res) {
+res.render ("art/dance");
 });
 router.get("/art/interview", function (req, res) {
 res.render ("art/interview");
@@ -134,18 +134,21 @@ router.get("/the-communities/Manawan", function(req, res) {
 
 });
 router.get("/the-communities/Cacouna", function(req, res) {
-  res.render("the-communities/Cacouna");});
-
+  res.render("the-communities/Cacouna");
+});
 router.get("/the-communities/Kiuna", function(req, res) {
   res.render("the-communities/Kiuna");
   });
   router.get("/about", function(req, res) {
     res.render("about/about");
   });
-  router.get("/who", function (req, res) {
-  res.render ("who/who");
+  router.get("/ack", function(req, res) {
+    res.render("about/ack");
   });
-    router.get("/the-research", function(req, res) {
-    res.render("the-research/the-research");
+    router.get("/the-researcher", function(req, res) {
+    res.render("the-research/the-researcher");
+});
+router.get("/the-research", function(req, res) {
+res.render("the-research/the-research");
 });
 module.exports = router;
