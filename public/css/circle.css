@@ -21,3 +21,6 @@
 #CoV a:visited .active-segment .segment-bg {
     fill: black;
 }
+ .tooltip {
+   font-size: 18px;
+ }

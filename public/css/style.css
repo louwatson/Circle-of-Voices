@@ -159,6 +159,10 @@ h3 {
   font-style: normal;
 }
 
+h3.special {
+  font-size: 28px;
+}
+
 h4 {
 color: #FF21DC;
 text-align: inherit;
@@ -168,7 +172,7 @@ font-size: 25px;
 }
 h5 {
   color: black;
-  font-family: 'Sahitya', serif;
+  font-family: 'Sahitya', sans-serif;
   text-align: left;
   padding: 20px 69px 20px 69px;
   font-size: 25px;
@@ -237,6 +241,16 @@ display: inline;
 .btn-default:hover {
 background-color: #B251A3;
 }
+.btn-default.main {
+  border: 3px black;
+  border-radius: 50px;
+  border-style: ridge;
+  background-color: white;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
 .btn {
   white-space: normal;
 }
@@ -293,7 +307,9 @@ img {
   padding: 15px 20px 15px 20px;
   margin: 0px;
   }
-
+img.vertical {
+  transform: rotate(90deg);
+}
 .gallery img {
   width: 100%;
   height: 100%;
@@ -312,11 +328,16 @@ img {
 }
 iframe {
   width: 100%;
-padding: 20px 10px 10px 40px;
+  padding: 15px 20px 15px 20px;
+  margin: 0px;
 }
 .interview iframe {
   padding: 25px;
 }
 audio {
-  width: 250px;
+  width: 200px;
+  padding-right: 15px;
+}
+#helpmodal .modal-dialog {
+  width: 800px;
 }
