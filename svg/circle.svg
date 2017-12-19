@@ -343,7 +343,7 @@
     <a
        xlink:href="/art/interview"
        id="a3868"
-       data-toggle="tooltip" data-placement="left" title="Interview with a knowledge holder: Guy Sioui Durand">
+       data-toggle="tooltip" data-placement="left" title="Interview with a knowledge holder">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment art"
@@ -529,7 +529,7 @@
     <a
        xlink:href="/language/interview"
        id="a3784"
-       data-toggle="tooltip" data-placement="bottom" title="Interview with a knowledge holder: Monique Nolett Ilet">
+       data-toggle="tooltip" data-placement="bottom" title="Interview with knowledge holders">
       <g
          transform="translate(-1180,-14.286)"
          class="active-segment language"
@@ -848,7 +848,7 @@
     <a
        xlink:href="/land/interview"
        id="a3924"
-       data-toggle="tooltip" data-placement="right" title="Interview with a knowledge holder: Luc Gauthier Nolett">
+       data-toggle="tooltip" data-placement="right" title="Interview with knowledge holders">
       <g
          class="active-segment land "
          transform="translate(-1181.1,-14.993)"
@@ -1150,7 +1150,7 @@
     <a
        xlink:href="/spirit/interview"
        id="a3933"
-       data-toggle="tooltip" data-placement="left" title="Interview with Michel Durand Nolett">
+       data-toggle="tooltip" data-placement="left" title="Interview with knowledge holders">
       <g
          class="active-segment spirit"
          transform="translate(-1180,-15.346)"

@@ -164,7 +164,7 @@ h3.special {
 }
 
 h4 {
-color: #FF21DC;
+color: #B251A3;
 text-align: inherit;
 margin: 0px;
 padding: 20px 70px 20px 70px;
@@ -307,8 +307,8 @@ img {
   padding: 15px 20px 15px 20px;
   margin: 0px;
   }
-img.vertical {
-  transform: rotate(90deg);
+img-responsive {
+  display: inline;
 }
 .gallery img {
   width: 100%;
@@ -337,7 +337,7 @@ iframe {
 audio {
   width: 200px;
   padding-right: 15px;
-}
+  }
 #helpmodal .modal-dialog {
   width: 800px;
 }
