@@ -3,7 +3,11 @@ var router = express.Router({
     mergeParams: true
 });
 
+
 /* GET home page. */
+router.get("/", function(req, res) {
+  res.render("home");
+});
 router.get("/home", function(req, res) {
   res.render("home");
 });
