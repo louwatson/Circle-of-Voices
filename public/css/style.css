@@ -8,7 +8,7 @@ color: red;
 body {
   background-color: #FFF4C5;
   background-image: url(/pictures/background.jpg);
-  background-size: 50%;
+  background-size: contain;
 }
 .container {
   text-align: center;
