@@ -10,14 +10,21 @@ body {
   background-image: url(/pictures/background.jpg);
   background-size: contain;
 }
+
 .container {
   text-align: center;
   padding-bottom: 40px;
   background-color: white;
   width: auto;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: 0px;
   }
+
+  @media (min-width: 768px) {
+      .container {
+        margin: 0 250px;
+      }
+  }
+
   .container-navbar {
     background-color: transparent;
     padding-bottom: 20px;
@@ -222,7 +229,7 @@ em {
 */
 ul{
   margin: 0px;
-  padding: 0px;
+  padding-left: 70px;
   list-style-position: inside;
   text-align: left;
       }
@@ -271,11 +278,20 @@ color: #6615C1;
 }
 
 /* CSS animations*/
-
 .bubbles {
   display:inline-block;
-
 }
+
+.bubbles a {
+  display:block;
+}
+
+@media (min-width: 768px) {
+  .bubbles a {
+    display:inline;
+  }
+}
+
 .bubbles img {
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
@@ -306,7 +322,14 @@ a:hover {
 img {
   padding: 15px 20px 15px 20px;
   margin: 0px;
+  width: 100%;
   }
+
+  @media (min-width:768px) {
+    img {
+    width: auto; }
+  }
+
 img-responsive {
   display: inline;
 }
