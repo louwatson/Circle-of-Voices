@@ -77,7 +77,7 @@ display: block;
 z-index:1;
 background-color: rgba(0, 0, 0, 0.5);
 margin-bottom: 0;
-font-family: 'Sahitya', serif;
+font-family: 'Arial', sans-serif;
 font-size: 30px;
 
 }
@@ -137,7 +137,7 @@ h4 et h5 à retravailler
 h1 {
 color: #B251A3;
 text-align: center;
-font-family: 'Sahitya', sans-serif;
+font-family: 'Garamond',serif;
 font-size: 50px;
 margin:0;
 padding-top: 40px;
@@ -146,9 +146,9 @@ padding-bottom: 10px;
 
 h2 {
 color: #B251A3;
-font-family: 'Sahitya', sans-serif;
+font-family: 'Garamond',serif;
 text-align: center;
-font-size: 33px;
+font-size: 28spx;
 margin-top: 10px;
 margin-bottom: 10px;
 padding-top: 10px;
@@ -158,11 +158,11 @@ padding-bottom: 10px;
 h3 {
   text-align: center;
   color: black;
-  font-family: 'Sahitya', sans-serif;
+  font-family: 'Garamond',serif;
   padding: 20px 70px 20px 70px;
   margin-bottom: 10px;
   margin-top: 0px;
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
 }
 
@@ -179,7 +179,7 @@ font-size: 25px;
 }
 h5 {
   color: black;
-  font-family: 'Sahitya', sans-serif;
+  font-family: 'Arial', sans-serif;
   text-align: left;
   padding: 20px 69px 20px 69px;
   font-size: 25px;
@@ -195,7 +195,7 @@ p {
   text-align: left;
   padding: 20px 70px 20px 70px;
   margin: 0;
-  font-family: 'Sahitya', serif;
+  font-family: 'Arial', sans-serif;
   font-size: 20px;
 }
 p.quote {
@@ -203,7 +203,7 @@ p.quote {
   text-align: left;
   padding: 10px;
   margin: 20px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 15px;
 }
 p.bloc {
@@ -216,6 +216,7 @@ p.bloc {
 p.caption {
   padding: 15px 70px 15px 70px;
   font-size: 20px;
+  font-style: italic;
 }
 /*
 em {
@@ -265,7 +266,7 @@ background-color: #B251A3;
 .lisa {
 color: black;
 text-align: center;
-font-family: 'Sahitya', serif;
+font-family: 'Arial', sans-serif;
 }
 
 .emphasis {
