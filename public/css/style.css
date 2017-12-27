@@ -148,7 +148,7 @@ h2 {
 color: #B251A3;
 font-family: 'Garamond',serif;
 text-align: center;
-font-size: 28spx;
+font-size: 28px;
 margin-top: 10px;
 margin-bottom: 10px;
 padding-top: 10px;
@@ -182,7 +182,7 @@ h5 {
   font-family: 'Arial', sans-serif;
   text-align: left;
   padding: 20px 69px 20px 69px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .community-categories h3 {
