@@ -199,12 +199,12 @@ p {
   font-size: 20px;
 }
 p.quote {
-  color: black;
+  color: #B251A3;
   text-align: left;
-  padding: 10px;
-  margin: 20px;
+  padding: 20px 70px 20px 70px;
+  margin: 0px;
   font-family: 'Arial', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 p.bloc {
   border: 3px;
@@ -215,7 +215,7 @@ p.bloc {
 }
 p.caption {
   padding: 15px 70px 15px 70px;
-  font-size: 20px;
+  font-size: 17px;
   font-style: italic;
 }
 /*
