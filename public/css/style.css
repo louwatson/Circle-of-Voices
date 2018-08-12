@@ -27,6 +27,7 @@ body {
 
   .container-navbar {
     background-color: transparent;
+    background-image: url(/pictures/background.jpg);
     padding-bottom: 20px;
     padding-top: 20px
   }
@@ -38,15 +39,17 @@ body {
 .navbar {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: black;
+  background-color: transparent;
   border-radius: 115px;
   border: 0px;
 }
 .navbar-nav li {
+  list-style: none;
   float: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 25px;
+  padding: 0 25 0 25;
 }
 .navbar-nav li a{
   color: white;
@@ -54,7 +57,7 @@ body {
   display: inline;
 }
 .navbar-default .navbar-nav li:hover a {
-  color: #FF21DC;
+  color: black;
 }
 
 .frame {
@@ -123,7 +126,7 @@ font-size: 30px;
 
 .miniwheel.affix {
   width: 350px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 /* combinaison couleurs:
@@ -138,10 +141,9 @@ h1 {
 color: #B251A3;
 text-align: center;
 font-family: 'Garamond',serif;
-font-size: 50px;
+font-size: 45px;
 margin:0;
-padding-top: 40px;
-padding-bottom: 10px;
+padding: 40px 15px 10px 15px;
 }
 
 h2 {
@@ -340,7 +342,7 @@ img-responsive {
   width: 100%;
   height: 100%;
   display: inline-block;
-  margin:0px;
+  margin:40px;
   padding:40px;
 }
 .gallery img:hover {
@@ -363,6 +365,7 @@ iframe {
 audio {
   width: 200px;
   padding-right: 15px;
+  padding-left: 15px;
   }
 #helpmodal .modal-dialog {
   width: 800px;
