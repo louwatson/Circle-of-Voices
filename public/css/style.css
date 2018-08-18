@@ -15,6 +15,7 @@ body {
   text-align: center;
   padding-bottom: 40px;
   background-color: white;
+  transparent;
   width: auto;
   margin: 0px;
   }
@@ -35,6 +36,10 @@ body {
 .navbar-header {
   margin-left: 200px;
   }
+#footer {
+  background-color: grey;
+  color: white;
+}
 
 .navbar {
   margin-top: 10px;
