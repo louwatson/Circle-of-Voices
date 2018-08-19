@@ -256,6 +256,7 @@ display: inline;
   background-color: white;
   display: inline-block;
   margin-right: 20px;
+  margin-top: 20px;
 }
 .btn-default:hover {
 background-color: #B251A3;

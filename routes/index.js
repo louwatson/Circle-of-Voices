@@ -146,6 +146,9 @@ router.get("/the-communities/Kiuna", function(req, res) {
   router.get("/about", function(req, res) {
     res.render("about/about");
   });
+  router.get("/about/apropos", function(req, res) {
+    res.render("about/apropos");
+  });
   router.get("/ack", function(req, res) {
     res.render("about/ack");
   });
