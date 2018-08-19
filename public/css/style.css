@@ -196,6 +196,14 @@ h5 {
   font-size: 21px;
 }
 
+h5.home {
+  color: black;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  padding: 20px 45px 20px 45px;
+  font-size: 21px;
+}
+
 .community-categories h3 {
   color: black;
   text-align: center;

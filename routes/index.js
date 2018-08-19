@@ -158,4 +158,7 @@ router.get("/the-communities/Kiuna", function(req, res) {
 router.get("/the-research", function(req, res) {
 res.render("the-research/the-research");
 });
+router.get("/partials", function(req, res) {
+res.render("partials/footer");
+});
 module.exports = router;
