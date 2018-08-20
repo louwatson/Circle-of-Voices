@@ -88,7 +88,7 @@
     <path d="m20.373 667.52h2.428c-0.0337-1.9265 0.66228-2.3953 2.7306-2.3953h1.5225c2.0683 0 2.7134 0.44344 2.7306 2.3953h1.8649c0-3.8215 1.3684-7.0862 5.9324-7.0862h4.9896c4.5637 0 5.9324 3.2649 5.9324 7.0862h11.277c0.91796 0 1.669 0.75186 1.669 1.6693v24.57c0 0.91821-0.75108 1.669-1.669 1.669h-39.408c-0.91796 0-1.6688-0.75082-1.6688-1.669v-24.57c-2.6e-4 -0.91822 0.75082-1.6693 1.6688-1.6693zm19.725 7.0138c-3.8288 0-6.9326 2.9926-6.9326 6.684s3.1038 6.6834 6.9326 6.6834 6.9331-2.992 6.9331-6.6834c0-3.6912-3.1043-6.684-6.9331-6.684zm12.174-4.6125c-2.2326 0-2.2321 3.6212 0 3.6212h5.0186c2.2321 0 2.2323-3.6212 0-3.6212zm-12.174 0.38076c-6.0363 0-10.93 4.8932-10.93 10.929 0 6.0361 4.8932 10.929 10.93 10.929 6.036 0 10.929-4.893 10.929-10.929 0-6.0363-4.893-10.929-10.929-10.929z" clip-rule="evenodd" fill="#fff"/>
    </g>
   </a>
-  <a data-placement="left" data-toggle="tooltip" title="Interview with a knowledge holder: Guy Sioui Durand" xlink:href="/art/interview">
+  <a data-placement="left" data-toggle="tooltip" title="Interview" xlink:href="/art/interview">
    <g id="art-interview" class="active-segment art" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m-15.587 641.32 65.803-21.6c-8.854-29.03-14.971-62.82-16.143-100.16l-69.374-0.0357c1.9812 45.477 6.4814 83.878 19.714 121.79z" fill="#ff0d00" fill-rule="evenodd"/>
     <g transform="translate(-663.9,309.22)" fill="#fff" stroke="#fff" stroke-linecap="square" stroke-width=".5">
@@ -99,7 +99,7 @@
     </g>
    </g>
   </a>
-  <a data-placement="bottom" data-toggle="tooltip" title="Traditional dance workshops: fancy shawl" xlink:href="/art/dance">
+  <a data-placement="bottom" data-toggle="tooltip" title="Dance workshops" xlink:href="/art/dance">
    <g id="art-dance" class="active-segment art" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m229.68 889.88 21.965-65.44c-28.566-10.263-55.632-23.683-86.266-45.072l-40.573 55.768c28.071 20.761 57.726 35.753 104.87 54.745z" fill="#ff0d00" fill-rule="evenodd"/>
     <g transform="translate(2,-2)" fill="#fff">
@@ -110,7 +110,7 @@
     </g>
    </g>
   </a>
-  <a data-placement="bottom" data-toggle="tooltip" title="Filming a traditional practice: basket weaving" xlink:href="/art/trad">
+  <a data-placement="bottom" data-toggle="tooltip" title="Weaving" xlink:href="/art/trad">
    <g id="art-trad" class="active-segment art" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m355.57 842.62c-30.473-0.52567-63.909-5.259-99.375-16.598l-22.436 65.981c34.5 11.638 75.224 18.074 122.35 19.308 0.34898-14.28-0.8886-48.48-0.53675-68.691z" fill="#ff0d00" fill-rule="evenodd"/>
     <switch transform="matrix(.46185 .0078301 -.0078301 .46185 720.9 413.2)" fill="#ffffff">
@@ -127,7 +127,7 @@
     <text x="393.15677" y="592.84491" fill="#ffffff" font-family="Tinos" font-weight="bold" letter-spacing="0px" word-spacing="0px" style="line-height:0%" line-height="0%" xml:space="preserve"><tspan x="393.15677" y="592.84491" fill="#ffffff" font-family="Tinos" font-size="45px" font-weight="bold" style="line-height:125%" line-height="125%">LANGUAGE</tspan></text>
    </g>
   </a>
-  <a data-placement="bottom" data-toggle="tooltip" title="Filming a traditional practice: storytelling" xlink:href="/language/trad">
+  <a data-placement="bottom" data-toggle="tooltip" title="Storytelling" xlink:href="/language/trad">
    <g id="language-trad" class="active-segment language" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m589.16 836.87-41.64-56.51c-24.647 17.716-46.417 30.415-81.403 43.528l22.138 64.928c33.015-11.358 58.536-23.864 100.91-51.942z" fill="#ffdf00" fill-rule="evenodd"/>
     <switch transform="matrix(.46185 .0078301 -.0078301 .46185 946.9 377.2)" fill="#ffffff">
@@ -138,7 +138,7 @@
     </switch>
    </g>
   </a>
-  <a data-placement="bottom" data-toggle="tooltip" title="Interview with a knowledge holder: Monique Nolett Ilet" xlink:href="/language/interview">
+  <a data-placement="bottom" data-toggle="tooltip" title="Interview" xlink:href="/language/interview">
    <g id="language-interview" class="active-segment language" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m483.82 890.69-22.495-65.613c-28.909 9.253-63.523 15.324-100.85 17.011l0.09 69.876c45.887-2.4797 88.794-9.7874 123.25-21.274z" fill="#ffdf00" fill-rule="evenodd"/>
     <g transform="translate(-254.5,601)" fill="#fff" stroke="#fff" stroke-linecap="square" stroke-width=".5">
@@ -211,7 +211,7 @@
     </g>
    </g>
   </a>
-  <a data-placement="right" data-toggle="tooltip" title="Filming a traditional practice: ash pounding" xlink:href="/land/trad">
+  <a data-placement="right" data-toggle="tooltip" title="Pounding ash tree" xlink:href="/land/trad">
    <g id="land-trad" class="active-segment land " transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m674.44 292.43-55.029 39.244c17.295 24.944 30.078 49.497 42.595 84.7l66.028-21.096c-10.27-33.9-32.72-78.93-53.59-102.84z" fill="#cfcfcf" fill-rule="evenodd"/>
     <switch transform="matrix(.46185 .0078301 -.0078301 .46185 1099.4 -97.802)" fill="#ffffff">
@@ -222,7 +222,7 @@
     </switch>
    </g>
   </a>
-  <a data-placement="right" data-toggle="tooltip" title="Interview with a knowledge holder: Luc Gauthier Nolett" xlink:href="/land/interview">
+  <a data-placement="right" data-toggle="tooltip" title="Interview" xlink:href="/land/interview">
    <g id="land-interview" class="active-segment land " transform="translate(-1181.1,-14.993)">
     <path class="segment-bg" d="m592.46 207.46-40.806 55.691c24.169 18.362 43.244 37.124 66.048 66.72l55.07-40.37c-20.55-28.23-41.03-49.78-80.31-82.04z" fill="#cfcfcf" fill-rule="evenodd"/>
     <g transform="translate(-57.5)" fill="#fff" stroke="#fff" stroke-linecap="square" stroke-width=".5">
@@ -260,7 +260,7 @@
     <text x="150.94519" y="482.43597" fill="#ffffff" font-family="Tinos" font-weight="bold" letter-spacing="0px" word-spacing="0px" style="line-height:0%" line-height="0%" xml:space="preserve"><tspan x="150.94519" y="482.43597" font-size="50px" style="line-height:1.25" line-height="1.25">SPIRIT</tspan></text>
    </g>
   </a>
-  <a data-placement="top" data-toggle="tooltip" title="Filming a traditional practice: celebration" xlink:href="/spirit/trad">
+  <a data-placement="top" data-toggle="tooltip" title="Celebrating" xlink:href="/spirit/trad">
    <g id="spirit-trad" class="active-segment spirit" transform="translate(-1180,-14.286)">
     <path class="segment-bg" d="m234.62 147.99 22.5 65.25c29.012-8.9218 61.534-14.615 98.875-15.875l0.25-68.375c-35.431-0.48034-74.247 3.5512-121.62 19z" fill="#3d3d3d" fill-rule="evenodd"/>
     <switch transform="matrix(.51164 0 0 .51164 760.13 -345.78)" fill="#ffffff">
@@ -302,7 +302,7 @@
     </g>
    </g>
   </a>
-  <a data-placement="left" data-toggle="tooltip" title="Interview with Michel Durand Nolett" xlink:href="/spirit/interview">
+  <a data-placement="left" data-toggle="tooltip" title="Interview" xlink:href="/spirit/interview">
    <g id="spirit-interview" class="active-segment spirit" transform="translate(-1180,-15.346)">
     <path class="segment-bg" d="m-14.474 393.57 66.91 22.392c9.9908-28.662 22.914-54.602 44.011-85.438l-56.285-41.03c-20.493 28.27-36.094 56.76-54.636 104.08z" fill="#3d3d3d" fill-rule="evenodd"/>
     <g transform="translate(-631.5,87)" fill="#fff" stroke="#fff" stroke-linecap="square" stroke-width=".5">

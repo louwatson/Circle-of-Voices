@@ -162,8 +162,7 @@ text-align: center;
 font-size: 28px;
 margin-top: 10px;
 margin-bottom: 10px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding: 20px 70px 20px 70px;
 }
 
 h3 {
@@ -199,8 +198,10 @@ h5 {
 h5.home {
   color: black;
   font-family: 'Arial', sans-serif;
-  text-align: left;
-  padding: 20px 45px 20px 45px;
+  text-align: center;
+  padding: 8px 50px 20px 8px;
+  margin-left: 90px;
+  margin-right: 90px;
   font-size: 21px;
 }
 
@@ -234,7 +235,7 @@ p.bloc {
 }
 p.caption {
   padding: 15px 70px 15px 70px;
-  font-size: 17px;
+  font-size: 15px;
   font-style: none;
 }
 /*
@@ -252,9 +253,18 @@ ul{
   padding-left: 70px;
   list-style-position: inside;
   text-align: left;
+  font-size: 20px;
       }
+
+  li.about {
+  padding: 10px 70px 10px 0px;
+  font-size: 20px;
+
+  }
+
 li.horizontal {
 display: inline;
+  padding: 10px 150px 10px 0px;
   }
 
 .btn-default {
