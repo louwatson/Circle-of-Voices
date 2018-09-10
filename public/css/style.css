@@ -383,7 +383,8 @@ img-responsive {
   text-align: left;
 }
 iframe {
-  width: 100%;
+  width:840px;
+  height: 500px;
   padding: 15px 40px 15px 40px;
   margin: 0px;
 }
