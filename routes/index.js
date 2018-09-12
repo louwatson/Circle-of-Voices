@@ -48,12 +48,23 @@ res.render ("language/language");
 router.get("/language/sounds", function (req, res) {
 res.render ("language/sounds");
 });
+router.get("/language/sons", function (req, res) {
+res.render ("language/sons");
+});
 router.get("/language/circle", function (req, res) {
 res.render ("language/circle");
 });
+
+
 router.get("/language/interview", function (req, res) {
 res.render ("language/interview");
 });
+/*FR*/
+router.get("/language/entrevue", function (req, res) {
+res.render ("language/entrevue");
+});
+
+
 router.get("/language/trad", function (req, res) {
 res.render ("language/trad");
 });
@@ -104,6 +115,7 @@ res.render ("spirit/interview");
 router.get("/spirit/photo", function (req, res) {
 res.render ("spirit/photo");
 });
+
 /*THE WOMEN*/
 router.get("/the-women", function(req, res) {
   res.render("the-women/the-women");
