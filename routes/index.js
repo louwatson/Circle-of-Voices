@@ -90,6 +90,9 @@ res.render ("land/trad");
 router.get("/land/interview", function (req, res) {
 res.render ("land/interview");
 });
+router.get("/land/entrevue", function (req, res) {
+res.render ("land/entrevue");
+});
 router.get("/land/photo", function (req, res) {
 res.render ("land/photo");
 });
