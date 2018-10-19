@@ -53,12 +53,13 @@ body {
   float: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: 'Garamond',serif;
   padding: 0 25 0 25;
 }
 .navbar-nav li a{
   color: white;
-  padding: 30px;
+  padding: 25px;
   display: inline;
 }
 .navbar-default .navbar-nav li:hover a {
@@ -66,7 +67,7 @@ body {
 }
 
 .navbar-nav li #socialmedia {
-  padding: 10px;
+  padding: 5px;
 }
 
 .frame {

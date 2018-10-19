@@ -115,8 +115,14 @@ res.render ("spirit/circle");
 router.get("/spirit/trad", function (req, res) {
 res.render ("spirit/trad");
 });
+router.get("/spirit/tradition", function (req, res) {
+res.render ("spirit/tradition");
+});
 router.get("/spirit/interview", function (req, res) {
 res.render ("spirit/interview");
+});
+router.get("/spirit/entrevue", function (req, res) {
+res.render ("spirit/entrevue");
 });
 router.get("/spirit/photo", function (req, res) {
 res.render ("spirit/photo");
