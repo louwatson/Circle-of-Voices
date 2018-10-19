@@ -34,6 +34,9 @@ res.render ("art/dance");
 router.get("/art/interview", function (req, res) {
 res.render ("art/interview");
 });
+router.get("/art/entrevue", function (req, res) {
+res.render ("art/entrevue");
+});
 router.get("/art/photo", function (req, res) {
 res.render ("art/photo");
 });
