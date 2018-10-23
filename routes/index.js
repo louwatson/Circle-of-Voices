@@ -90,6 +90,9 @@ res.render ("land/circle");
 router.get("/land/trad", function (req, res) {
 res.render ("land/trad");
 });
+router.get("/land/tradition", function (req, res) {
+res.render ("land/tradition");
+});
 router.get("/land/interview", function (req, res) {
 res.render ("land/interview");
 });
