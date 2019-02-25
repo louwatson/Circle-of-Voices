@@ -3,7 +3,7 @@
 }
 
 #CoV .active-segment.land:hover .segment-bg {
-    fill: darkgray;
+    fill: grey;
 }
 
 #CoV .active-segment.language:hover .segment-bg {
