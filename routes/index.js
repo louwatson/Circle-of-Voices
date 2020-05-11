@@ -141,9 +141,6 @@ router.get("/the-women/Marie-Christine-Petiquay", function(req, res) {
 router.get("/the-women/Raphaelle-Obomsawin", function(req, res) {
   res.render("the-women/Raphaelle-Obomsawin");
 });
-router.get("/the-women/Catherine-Boivin", function(req, res) {
-  res.render("the-women/Catherine-Boivin");
-});
 router.get("/the-women/Jessica-Ann-Watso", function(req, res) {
   res.render("the-women/Jessica-Ann-Watso");
 });
