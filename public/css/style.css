@@ -135,7 +135,10 @@ font-size: 30px;
   padding: 0px;
   margin: 0px;
 }
-
+.col-md-12 {
+  padding: 0px;
+  margin: 0px;
+}
 .miniwheel.affix {
   width: 350px;
   padding-left: 15px;
@@ -200,7 +203,7 @@ h4.modal-title {
 }
 h5 {
   color: black;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Calibri', sans-serif;
   text-align: left;
   padding: 20px 45px 20px 45px;
   font-size: 21px;
@@ -208,7 +211,7 @@ h5 {
 
 h5.home {
   color: black;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Calibri', sans-serif;
   text-align: center;
   padding: 8px 50px 20px 8px;
   margin-left: 90px;
@@ -226,15 +229,15 @@ p {
   text-align: justify;
   padding: 20px 70px 20px 70px;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 20px;
 }
 p.home {
   color: black;
-  text-align: justify;
+  text-align: center;
   padding: 20px 70px 20px 20px;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 20px;
 }
 p.bloc {
@@ -248,6 +251,11 @@ p.caption {
   padding: 15px 70px 15px 70px;
   font-size: 15px;
   font-style: none;
+}
+p.record {
+  padding: 15px 10px 15px 10px;
+  font-size: 12px;
+  font-style: 'Lato';
 }
 /*
 em {
