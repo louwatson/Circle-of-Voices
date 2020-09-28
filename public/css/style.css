@@ -209,6 +209,14 @@ h5 {
   font-size: 21px;
 }
 
+h5.disclaimer {
+  color: black;
+  font-family: 'Calibri', sans-serif;
+  text-align: left;
+  padding: 10px 45px 10px 45px;
+  font-size: 20px;
+}
+
 h5.home {
   color: black;
   font-family: 'Calibri', sans-serif;
